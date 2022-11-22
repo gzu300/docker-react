@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          this takes long auto update
+          this takes long auto update changed app text
         </p>
         <a
           className="App-link"

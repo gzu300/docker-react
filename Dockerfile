@@ -6,4 +6,6 @@ COPY . .
 RUN npm run build
 
 FROM nginx
+# expose is used by ebs to allow incoming traffic
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
